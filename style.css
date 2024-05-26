@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(36, 35, 35);
+    height: 90vh;
+    color: white;
+}
+.container{
+    border: 2px solid white;
+    margin: 150px 320px;
+    width: 600px;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(250, 243, 243, 0.3);
+    background: black;
+    backdrop-filter: blur(50px);
+  
+}
+.slide1{
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    background: linear-gradient(to right, rgb(236, 9, 85),rgb(238, 238, 241));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background-position 0.9s ease;
+    background-size: 200% 100%;
+}
+.slide1:hover{
+    background-position: -100% 0;
+}
+.input-button{
+  width: 350px;
+  padding: 7px 9px;
+  border-radius: 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  margin-left: 90px;
+  font-size: 18px;
+}
+.add-button{
+    width: 90px;
+    height: 40px;
+   font-size: 20px;
+   margin-left: 20px;
+   background: linear-gradient(to right, red, blue);
+   border-radius: 9px;
+   color: #ffff;
+   cursor: pointer;
+}
+.container ul li{
+    list-style-type: none;
+    font-size: 20px;
+    word-spacing: 3px;
+    margin: 20px 50px;
+    border-radius: 7px; 
+}
+.container ul li .delete-icon{
+    color: red;
+    margin-right: 20px;
+}
